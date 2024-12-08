@@ -8,7 +8,7 @@ const http = require('http');
 const app = express();
 const server = http.createServer(app);
 const wss = new WebSocket.Server({ server });
-const port = 3001;
+const port = 3000;
 
 app.use(express.json());
 
